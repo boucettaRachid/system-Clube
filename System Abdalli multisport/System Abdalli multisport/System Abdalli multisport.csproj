@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EEA6D179-BB9D-4689-AE99-925B4E4C5FA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>System_Abdalli_multisport</RootNamespace>
+    <AssemblyName>System Abdalli multisport</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Access.cs" />
+    <Compile Include="acceuil\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acceuil\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="acceuil\welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acceuil\welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="email.cs" />
+    <Compile Include="formapp\BlackList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\BlackList.Designer.cs">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\calculator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\calculator.Designer.cs">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\Calendar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\CartPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\CartPlayer.Designer.cs">
+      <DependentUpon>CartPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\help.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\help.Designer.cs">
+      <DependentUpon>help.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\paying_off.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\paying_off.Designer.cs">
+      <DependentUpon>paying_off.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\settings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\settings.Designer.cs">
+      <DependentUpon>settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\updateAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\updateAdmin.Designer.cs">
+      <DependentUpon>updateAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\updatePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\updatePlayer.Designer.cs">
+      <DependentUpon>updatePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info.cs" />
+    <Compile Include="ElipseControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="formapp\AcceuilForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\AcceuilForm.Designer.cs">
+      <DependentUpon>AcceuilForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\addPlayers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\addPlayers.Designer.cs">
+      <DependentUpon>addPlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\ListePlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\ListePlayer.Designer.cs">
+      <DependentUpon>ListePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\Management.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="formapp\Management.Designer.cs">
+      <DependentUpon>Management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formapp\TypeListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formapp\TypeListe.Designer.cs">
+      <DependentUpon>TypeListe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TheQuerys.cs" />
+    <EmbeddedResource Include="acceuil\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="acceuil\welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\AcceuilForm.resx">
+      <DependentUpon>AcceuilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\addPlayers.resx">
+      <DependentUpon>addPlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\BlackList.resx">
+      <DependentUpon>BlackList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\calculator.resx">
+      <DependentUpon>calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\CartPlayer.resx">
+      <DependentUpon>CartPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\help.resx">
+      <DependentUpon>help.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\ListePlayer.resx">
+      <DependentUpon>ListePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\Management.resx">
+      <DependentUpon>Management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\paying_off.resx">
+      <DependentUpon>paying_off.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\settings.resx">
+      <DependentUpon>settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\TypeListe.resx">
+      <DependentUpon>TypeListe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\updateAdmin.resx">
+      <DependentUpon>updateAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formapp\updatePlayer.resx">
+      <DependentUpon>updatePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_default.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

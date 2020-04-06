@@ -1,0 +1,28 @@
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\bin\Debug\System Abdalli multisport.exe.config
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\bin\Debug\System Abdalli multisport.exe
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\bin\Debug\System Abdalli multisport.pdb
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.acceuil.login.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.acceuil.welcome.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.AcceuilForm.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.addPlayers.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.BlackList.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.calculator.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.Calendar.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.Home.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.ListePlayer.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.Management.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.settings.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.TypeListe.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.updatePlayer.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.Properties.Resources.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.csproj.GenerateResource.Cache
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.exe
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.pdb
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.csprojResolveAssemblyReference.cache
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.CartPlayer.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.paying_off.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.updateAdmin.resources
+C:\Users\rachi\Desktop\MyWork\System Abdalli multisport\System Abdalli multisport\obj\Debug\System_Abdalli_multisport.formapp.help.resources
+C:\Users\rachi\Desktop\MyWork\Clube Syetem\System Abdalli multisport\System Abdalli multisport\bin\Debug\System Abdalli multisport.exe.config
+C:\Users\rachi\Desktop\MyWork\Clube Syetem\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.exe
+C:\Users\rachi\Desktop\MyWork\Clube Syetem\System Abdalli multisport\System Abdalli multisport\obj\Debug\System Abdalli multisport.pdb
